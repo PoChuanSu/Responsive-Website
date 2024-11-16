@@ -215,7 +215,7 @@
 }
 
 .step-img-box {
-  position: relative; /* Trick for overlapped position*/
+  position: relative; /* Trick for overlapped position */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,7 +223,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  position: absolute; /* Trick for overlapped position*/
+  position: absolute; /* Trick for overlapped position */
   content: "";
   display: block;
   border-radius: 50%;
@@ -236,7 +236,7 @@
   width: 60%;
   padding-bottom: 60%; /* 60% of parent's width */
   background-color: #fdf2e9;
-  z-index: -2; /* higer value will be on top */
+  z-index: -2; /* higher value will be on top */
 }
 
 .step-img-box::after {
