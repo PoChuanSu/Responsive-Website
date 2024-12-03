@@ -14,9 +14,12 @@
   position: relative;
 }
 
-.logo {
+.logo-header {
   height: 25rem;
-  /* height: 2.2rem; */
+}
+
+.logo-footer {
+  height: 15rem;
 }
 
 /*******************************/
@@ -619,6 +622,7 @@
 }
 
 .logo-col {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -645,9 +649,12 @@
 }
 
 .social-links {
+  position: absolute;
   list-style: none;
   display: flex;
   gap: 2.4rem;
+  top: 15rem;
+  left: 1.25rem;
 }
 
 .social-icon {
