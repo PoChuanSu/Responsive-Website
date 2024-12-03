@@ -15,7 +15,8 @@
 }
 
 .logo {
-  height: 2.2rem;
+  height: 25rem;
+  /* height: 2.2rem; */
 }
 
 /*******************************/
@@ -563,7 +564,7 @@
       hsla(28, 80%, 61%, 0.35),
       hsla(28, 80%, 52%, 0.35)
     ),
-    url("../img/eating.jpg");
+    url("../img/learning.png");
   background-size: cover;
   background-position: center;
 }
